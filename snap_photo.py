@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 # this code is to take a picture with the webcam and save the image
 # by the name 'security_image.jpg" to the home directoy of the pi user

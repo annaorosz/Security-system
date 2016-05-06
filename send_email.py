@@ -1,6 +1,8 @@
-import time
+#!/usr/bin/env python
 
-# sending an HTML email with an embedded image and a plain text message
+# sending an HTML email with an embedded image and a text message
+
+import time
 
 # importing the libraries needed to send an email
 from email.MIMEMultipart import MIMEMultipart

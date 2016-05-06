@@ -12,7 +12,7 @@ while true; do
 
         if [ $( python ./light_sensor.py  ) -ge 100000 ]
         then    python ./snap_photo.py
-                python ./send_email4.py
+                python ./send_email.py
                 PID=$!
                 fi
 done
